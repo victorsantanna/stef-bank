@@ -1,9 +1,12 @@
 <template>
-    <div >
-        <button class="container">
-            <h3>Acesse sua conta</h3>
-            <img src="../assets/img/Frame.svg" alt="botão entrar">
-        </button>
+    <div>
+        <router-link to="login">
+            <button class="container">
+                <h4>Acesse sua conta</h4>
+                <img src="../assets/img/Frame.svg" alt="botão entrar">
+            </button>
+
+        </router-link>
     </div>
 </template>
 
@@ -12,7 +15,7 @@
 </script>
 
 <style scoped>
-.container{
+.container {
     width: 200px;
     padding: 6px 6px;
 
@@ -23,14 +26,20 @@
 
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    
+
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-h3{
-    font-size: 16px;
+h4 {
+    font-size: 15px;
+}
+
+router-link, a{
+    text-decoration: none;
+    color: inherit;
 }
 
 </style>
