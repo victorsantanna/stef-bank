@@ -16,9 +16,11 @@
         <button class="botao-entrar">
             Entrar
         </button>
-        <button class="botao-nao-cliente">
-            Ainda não sou Cliente
-        </button>
+        <router-link to="cadastro">
+            <button class="botao-nao-cliente">
+                Ainda não sou Cliente
+            </button>
+        </router-link>
         <div class="link-esqueci-senha">
             <a href="">
                 <p>Esqueci minha senha</p>
@@ -100,6 +102,7 @@ h3 {
 }
 
 .botao-entrar {
+    width: 320px;
     border: var(--primary-color);
     border-radius: 4px;
     background-color: var(--primary-color);
@@ -111,6 +114,7 @@ h3 {
 }
 
 .botao-nao-cliente {
+    width: 320px;
     height: 45px;
     border-radius: 4px;
     border: 1.5px solid var(--primary-color);
@@ -122,14 +126,20 @@ h3 {
 
 }
 
-.link-esqueci-senha a, p{
+.link-esqueci-senha a,
+p {
     text-decoration: none;
     color: #358EF7;
     font-weight: 600;
     font-size: 14px;
 }
 
-.link-esqueci-senha a, p:hover{
+.link-esqueci-senha a,
+p:hover {
     color: var(--primary-color);
+}
+
+router-link{
+    text-decoration: none;
 }
 </style>
