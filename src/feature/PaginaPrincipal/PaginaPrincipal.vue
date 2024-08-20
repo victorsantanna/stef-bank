@@ -26,7 +26,7 @@ import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     margin: 0 auto;
 }
 
