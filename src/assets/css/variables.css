@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-:root {
-    --primary-color: #06004F;
-    --secondary-color: #35495e;
-    --font-size-base: 16px;
-    --color-text: #E6E6ED;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+:root {
+  --primary-color: #06004F;
+  --secondary-color: #35495e;
+  --font-size-base: 16px;
+  --color-text: #E6E6ED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
