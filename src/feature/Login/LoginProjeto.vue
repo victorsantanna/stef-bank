@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <div class="formulario">
-      <ImagemLogin />
+      <div class="imagem-login">
+        <ImagemLogin />
+
+      </div>
       <div class="conteudo-formulario">
         <FormularioLogin />
       </div>
@@ -37,5 +40,18 @@ import FormularioLogin from './components/FormularioLogin.vue';
   margin-left: 200px;
 }
 
+@media (max-width: 900px){
+  .formulario {
+    flex-direction: column; /* Muda a direção do flex para coluna em telas pequenas */
+    align-items: center;
+  }
+  
+  .imagem-login {
+    display: none; /* Esconde a imagem em telas menores */
+  }
 
+  .conteudo-formulario {
+    margin-left: 0; /* Remove a margem esquerda em telas pequenas */
+  }
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../../../assets/img/Login/imagem-login.svg" alt="imagem login" loading="lazy">
+    <img src="../../../assets/img/Login/imagem-login.png" alt="imagem login" loading="lazy">
   </div>
 </template>
 

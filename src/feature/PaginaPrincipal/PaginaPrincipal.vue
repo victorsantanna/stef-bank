@@ -30,7 +30,7 @@ import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
     margin: 0 auto;
 }
 
-@media (max-width: 768px) { /* Ajuste o valor conforme necessário */
+@media (max-width: 908px) { /* Ajuste o valor conforme necessário */
     .conteudo-principal {
         flex-direction: column; /* Alinha os itens verticalmente quando a tela é pequena */
         gap: 20px; /* Ajusta o espaçamento entre os itens em telas menores */
@@ -42,4 +42,5 @@ import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
         display: none;
     }
 }
+
 </style>

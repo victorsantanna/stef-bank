@@ -1,10 +1,12 @@
 <template>
   <div>
-    <img src="../../../assets/img/PaginaPrincipal/Imagem-principal.svg" alt="imagem" loading="lazy">
+    <img :src="ImagemPrincipal" alt="imagem" loading="lazy">
   </div>
 </template>
 
 <script setup>
+
+import ImagemPrincipal from '@/assets/img/PaginaPrincipal/imagem-principal.png'
 
 </script>
 
